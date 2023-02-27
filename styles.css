@@ -1,0 +1,140 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link-header {
+    margin: 47px 0 956px 42px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+    margin-left: 42px;
+    
+}
+
+button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    width: 124px;
+    height: 51px;
+    margin-left: 32px;
+    margin-top: 32px;
+    cursor: pointer;
+    border: none;
+}
+img {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    margin-top: 163px;
+    margin-right: 93.83px;
+    display: inline-block;
+}
+section {
+    display: inline-block;
+    margin-top: 0px;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-right: 57px;
+    width: 582px;
+    height: 164px
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+.learn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    
+}
+
+    @media screen and (max-width: 730px){
+
+        .link-header {
+            display: none;
+        }
+
+        button {
+            position: absolute;
+            right: 15px;
+            top: 17px;
+            width: 91px;
+            height: 31px;
+            font-size: 12px;
+            line-height: 18px;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 30px;
+            line-height: 30px;
+            text-align: center;
+            letter-spacing: 0.596154px;
+            width: auto;
+            margin-left: 57px;
+            position: absolute;
+            top: 124px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 33px;
+            text-align: center;
+            letter-spacing: 0.5px;
+            width: 300px;
+            margin-left: 43px;
+            position: absolute;
+            top: 165px;
+        }
+
+        img {
+            width: 312px;
+            height: 288px;
+            display: block;
+            margin-left: 39px;
+            position: absolute;
+            top: 306px;
+            }
+        
+            section {
+                display: block;
+               
+                }
+
+        .learn {
+            margin-left: 139px;
+            position: absolute;
+            top: 404px;
+        }        
+    }
